@@ -1,20 +1,6 @@
 [gd_scene format=3 uid="uid://btdknidthoiw"]
 
-[ext_resource type="Script" uid="uid://cr0j3er11iehk" path="res://scripts/main_node.gd" id="1_lwogq"]
-
-[sub_resource type="GDScript" id="GDScript_dhalm"]
-script/source = "extends CenterContainer
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
-"
+[ext_resource type="Script" uid="uid://cr0j3er11iehk" path="res://scripts/main_node.gd" id="1_e3fa1"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_ypeph"]
 font_size = 80
@@ -29,7 +15,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_lwogq")
+script = ExtResource("1_e3fa1")
 
 [node name="Background" type="ColorRect" parent="." unique_id=1913161929]
 layout_mode = 1
@@ -47,7 +33,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = SubResource("GDScript_dhalm")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=1980799643]
 custom_minimum_size = Vector2(320, 0)

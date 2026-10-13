@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://16dvjkjmt7hv"]
+
+[node name="ArenaNode" type="Node2D" unique_id=1683919816]
+
+[node name="Node" type="Node" parent="." unique_id=494417216]
+
+[node name="Environment" type="Node2D" parent="." unique_id=1308267045]
+
+[node name="Platforms" type="Node2D" parent="Environment" unique_id=192224741]
+
+[node name="Obstacles" type="Node2D" parent="Environment" unique_id=632607963]
+
+[node name="PlayerSpawn" type="Marker2D" parent="." unique_id=1495551193]
+
+[node name="EnemySpawn" type="Marker2D" parent="." unique_id=1651294835]
+
+[node name="Entities" type="Node2D" parent="." unique_id=479804568]
